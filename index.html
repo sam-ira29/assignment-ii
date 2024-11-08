@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">University Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="jumbotron bg-primary text-white text-center">
+            <h1 class="display-4">Welcome to Our University</h1>
+            <p class="lead">Empowering students to achieve their dreams.</p>
+            <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h1>About Us</h1>
+        <p>Welcome to our university! We are dedicated to providing high-quality education and fostering a community of learning.</p>
+    </div>
+    <div id="featuredPrograms" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Img/uni-3.jpg" class="d-block w-100" alt="Program 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Computer Science</h5>
+                    <p>Join our cutting-edge program in Computer Science.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Img/uni-2.jpg" class="d-block w-100" alt="Program 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Business Administration</h5>
+                    <p>Learn essential business skills for a successful career.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Img/uni-3.jpg" class="d-block w-100" alt="Program 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Engineering</h5>
+                    <p>Innovate and solve real-world challenges with our Engineering program.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#featuredPrograms" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featuredPrograms" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5">
+        <h2>Our Programs</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Science</h5>
+                        <p class="card-text">Learn the fundamentals of programming and software development.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Administration</h5>
+                        <p class="card-text">Gain skills in management, finance, and marketing.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Engineering</h5>
+                        <p class="card-text">Innovate and design solutions to real-world problems.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h1>Latest News</h1>
+        <article class="mb-4">
+            <h2>University Opens New Research Facility</h2>
+            <p>Published on <strong>October 20, 2024</strong></p>
+            <p>Our university is excited to announce the opening of a new state-of-the-art research facility...</p>
+            <a href="blog-detail.html" class="btn btn-secondary">Read More</a>
+        </article>
+        <!-- Repeat for more blog posts -->
+    </div>
+    <div class="container mt-3">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+    <div class="container mt-5">
+        <h2>Upcoming Events</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Open House</h5>
+                <p>Date: November 15, 2024</p>
+                <p>Join us for our open house and explore our campus!</p>
+            </li>
+            <li class="list-group-item">
+                <h5>Guest Lecture: AI in Education</h5>
+                <p>Date: December 1, 2024</p>
+                <p>Learn about the impact of AI in education from our esteemed guest speaker.</p>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <div class="container mt-5">
+        <h2>Stay Informed</h2>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </div>
+    
+    
+    <div class="container mt-5">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="container mt-5">
+        <h2>Follow Us</h2>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.facebook.com/UniversityName" class="btn btn-primary">Facebook</a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com/UniversityName" class="btn btn-info">Twitter</a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/UniversityName" class="btn btn-danger">Instagram</a></li>
+        </ul>
+    </div>
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            © 2023 University Name. All rights reserved.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

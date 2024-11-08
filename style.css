@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #007bff, #6610f2);
+}
+
+footer {
+    background-color: #f8f9fa;
+}
